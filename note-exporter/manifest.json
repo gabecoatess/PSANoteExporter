@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Note Exporter",
+    "version": "0.1.0",
+
+    "action": {},
+    "description": "Export ticket notes from one PSA to another.",
+    "icons": {},
+
+    "author": "gabrielrcoates@outlook.com",
+    
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://abc.example.com/desk/mytickets/*",
+                "https://abc.example.com/desk/tickets/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}
