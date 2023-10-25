@@ -50,7 +50,7 @@ This extension is released under the MIT License.
 - Attribution: You must include the original MIT License and copyright notice when distributing the extension.
 - No Warranty: The extension is provided "as is" without any warranty.
 
-For the full text of the MIT License, refer to the [LICENSE](LICENSE) file in this repository.
+For the full text of the MIT License, refer to the [LICENSE](LICENSE.md) file in this repository.
 ---
 
 Enjoy using the ticket note exporter for a smoother transition to your new PSA system!
